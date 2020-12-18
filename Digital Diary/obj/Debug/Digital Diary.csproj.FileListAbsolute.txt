@@ -1,0 +1,11 @@
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\bin\Debug\Digital Diary.exe.config
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\bin\Debug\Digital Diary.exe
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\bin\Debug\Digital Diary.pdb
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital Diary.csprojAssemblyReference.cache
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital_Diary.Presentation_Layer.CreateEvent.resources
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital_Diary.Presentation_Layer.Home.resources
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital_Diary.Properties.Resources.resources
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital Diary.csproj.GenerateResource.cache
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital Diary.csproj.CoreCompileInputs.cache
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital Diary.exe
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital Diary.pdb
