@@ -9,3 +9,5 @@ D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital D
 D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital Diary.csproj.CoreCompileInputs.cache
 D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital Diary.exe
 D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital Diary.pdb
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital_Diary.Presentation_Layer.Login.resources
+D:\important !\Study\AIUB\10th semister\C#\Digital diary\Digital Diary\Digital Diary\obj\Debug\Digital_Diary.Presentation_Layer.Registration.resources

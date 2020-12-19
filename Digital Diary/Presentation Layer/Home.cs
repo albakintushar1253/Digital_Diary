@@ -32,6 +32,7 @@ namespace Digital_Diary.Presentation_Layer
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            
 
         }
 
@@ -40,6 +41,12 @@ namespace Digital_Diary.Presentation_Layer
             CreateEventService CES = new CreateEventService();
             loadCreateEventDataGridView.DataSource = CES.GetCreateEventsList();
 
+
+
+        }
+
+        private void modifybutton_Click(object sender, EventArgs e)
+        {
 
 
         }

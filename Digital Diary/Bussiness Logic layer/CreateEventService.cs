@@ -26,11 +26,13 @@ namespace Digital_Diary.Bussiness_Logic_layer
         {
             CreateEvent CE = new CreateEvent() { EventName = EventName,Date=Date,Importance=Importance,EventDescription=EventDescription };
             return this.CEDA.SaveCreateEvent(CE);
+
         }
 
-        internal int AddNewCreateEvent(string text1, object dateTime, string text2, string text3)
-        {
-            throw new NotImplementedException();
-        }
+        
+
+
+
+
     }
 }

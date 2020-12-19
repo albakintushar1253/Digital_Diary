@@ -73,6 +73,7 @@
             this.modifybutton.TabIndex = 2;
             this.modifybutton.Text = "Modify";
             this.modifybutton.UseVisualStyleBackColor = false;
+            this.modifybutton.Click += new System.EventHandler(this.modifybutton_Click);
             // 
             // label1
             // 
@@ -87,9 +88,12 @@
             // 
             // loadCreateEventDataGridView
             // 
+            this.loadCreateEventDataGridView.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
             this.loadCreateEventDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.loadCreateEventDataGridView.Location = new System.Drawing.Point(164, 178);
+            this.loadCreateEventDataGridView.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.loadCreateEventDataGridView.Location = new System.Drawing.Point(164, 177);
             this.loadCreateEventDataGridView.Name = "loadCreateEventDataGridView";
+            this.loadCreateEventDataGridView.ReadOnly = true;
             this.loadCreateEventDataGridView.Size = new System.Drawing.Size(544, 336);
             this.loadCreateEventDataGridView.TabIndex = 4;
             this.loadCreateEventDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);

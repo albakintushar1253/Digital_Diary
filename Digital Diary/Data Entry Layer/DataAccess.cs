@@ -17,14 +17,13 @@ namespace Digital_Diary.Data_Entry_Layer
         public DataAccess()
         {
             this.connection = new SqlConnection(ConfigurationManager.ConnectionStrings["DigitalDiary"].ConnectionString);
-            this.connection.Open();
+            this.connection.Open(); 
         }
 
         public SqlDataReader GetData(string sql)
         {
             this.command = new SqlCommand(sql, this.connection);
             SqlDataReader reader = this.command.ExecuteReader();
-            //this.connection.Close();
             return reader;
         }
 

@@ -56,10 +56,23 @@ namespace Digital_Diary.Presentation_Layer
             }
         }
 
+        void Reset()
+        {
+            enametextbox.Text = comboBox.Text = edtextbox.Text = "";
+        }
+
         private void savebutton_Click(object sender, EventArgs e)
         {
             CreateEventService CES = new CreateEventService();
-           int result= CES.AddNewCreateEvent(enametextbox.Text, datepiker.DateTime, comboBox.Text, edtextbox.Text);
+           int result= CES.AddNewCreateEvent(enametextbox.Text, datepiker.Value, comboBox.Text, edtextbox.Text);
+            MessageBox.Show("Save SSuccesfully !");
+            Reset();
+
+            
         }
+
+
+
+
     }
 }
