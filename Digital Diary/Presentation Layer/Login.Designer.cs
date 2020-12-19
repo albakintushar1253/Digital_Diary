@@ -69,6 +69,7 @@
             // 
             this.passwordtextBox.Location = new System.Drawing.Point(179, 112);
             this.passwordtextBox.Name = "passwordtextBox";
+            this.passwordtextBox.PasswordChar = '*';
             this.passwordtextBox.Size = new System.Drawing.Size(213, 20);
             this.passwordtextBox.TabIndex = 3;
             // 
@@ -121,7 +122,9 @@
             this.ClientSize = new System.Drawing.Size(830, 501);
             this.Controls.Add(this.groupBox1);
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Login_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

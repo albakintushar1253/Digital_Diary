@@ -26,18 +26,18 @@ namespace Digital_Diary.Presentation_Layer
             }
             else   
             {
-                UserService us = new UserService();
-                bool result = us.LoginValidation(usernametextBox.Text, passwordtextBox.Text);
+              // UserService us = new UserService();
+              // bool result = us.LoginValidation(usernametextBox.Text, passwordtextBox.Text);
 
-                if(result)
-                {
+              //  if(result)
+            //   {
                     Home h = new Home();
                     h.Show();
                     this.Hide();
-                }
-                else
+              // }
+              //else
                 
-                    MessageBox.Show("Invalid Username or Password !");
+                //   MessageBox.Show("Invalid Username or Password !");
                 
             }
         }
@@ -47,6 +47,11 @@ namespace Digital_Diary.Presentation_Layer
             Registration registration = new Registration();
             registration.Show();
             this.Hide();
+        }
+
+        private void Login_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }

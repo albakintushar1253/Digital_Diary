@@ -68,8 +68,14 @@ namespace Digital_Diary.Presentation_Layer
             MessageBox.Show("Save SSuccesfully !");
             Reset();
 
+            Home h = new Home();
+            h.Show();
+            this.Hide();
+
             
         }
+
+
 
 
 

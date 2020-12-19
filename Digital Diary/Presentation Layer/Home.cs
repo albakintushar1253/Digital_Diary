@@ -50,5 +50,12 @@ namespace Digital_Diary.Presentation_Layer
 
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Login login = new Login();
+            login.Show();
+            this.Hide();
+        }
     }
 }
