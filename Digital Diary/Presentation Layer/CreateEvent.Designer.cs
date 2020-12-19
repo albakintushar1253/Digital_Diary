@@ -33,10 +33,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.enametextbox = new System.Windows.Forms.TextBox();
+            this.datepiker = new System.Windows.Forms.DateTimePicker();
+            this.comboBox = new System.Windows.Forms.ComboBox();
+            this.edtextbox = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.savebutton = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
@@ -99,39 +99,39 @@
             this.pictureBox1.TabIndex = 4;
             this.pictureBox1.TabStop = false;
             // 
-            // textBox1
+            // enametextbox
             // 
-            this.textBox1.Location = new System.Drawing.Point(330, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(189, 20);
-            this.textBox1.TabIndex = 6;
+            this.enametextbox.Location = new System.Drawing.Point(330, 64);
+            this.enametextbox.Name = "enametextbox";
+            this.enametextbox.Size = new System.Drawing.Size(189, 20);
+            this.enametextbox.TabIndex = 6;
             // 
-            // dateTimePicker1
+            // datepiker
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(330, 101);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(189, 20);
-            this.dateTimePicker1.TabIndex = 7;
+            this.datepiker.Location = new System.Drawing.Point(330, 101);
+            this.datepiker.Name = "datepiker";
+            this.datepiker.Size = new System.Drawing.Size(189, 20);
+            this.datepiker.TabIndex = 7;
             // 
-            // comboBox1
+            // comboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
+            this.comboBox.FormattingEnabled = true;
+            this.comboBox.Items.AddRange(new object[] {
             "High",
             "Moderate",
             "Less"});
-            this.comboBox1.Location = new System.Drawing.Point(330, 139);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(189, 21);
-            this.comboBox1.TabIndex = 8;
+            this.comboBox.Location = new System.Drawing.Point(330, 139);
+            this.comboBox.Name = "comboBox";
+            this.comboBox.Size = new System.Drawing.Size(189, 21);
+            this.comboBox.TabIndex = 8;
             // 
-            // textBox2
+            // edtextbox
             // 
-            this.textBox2.Location = new System.Drawing.Point(87, 208);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(676, 263);
-            this.textBox2.TabIndex = 9;
+            this.edtextbox.Location = new System.Drawing.Point(87, 208);
+            this.edtextbox.Multiline = true;
+            this.edtextbox.Name = "edtextbox";
+            this.edtextbox.Size = new System.Drawing.Size(676, 263);
+            this.edtextbox.TabIndex = 9;
             // 
             // groupBox1
             // 
@@ -140,10 +140,10 @@
             this.groupBox1.Controls.Add(this.button1);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.savebutton);
-            this.groupBox1.Controls.Add(this.textBox2);
-            this.groupBox1.Controls.Add(this.comboBox1);
-            this.groupBox1.Controls.Add(this.dateTimePicker1);
-            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.edtextbox);
+            this.groupBox1.Controls.Add(this.comboBox);
+            this.groupBox1.Controls.Add(this.datepiker);
+            this.groupBox1.Controls.Add(this.enametextbox);
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.label3);
@@ -167,6 +167,7 @@
             this.savebutton.TabIndex = 10;
             this.savebutton.Text = "Save";
             this.savebutton.UseVisualStyleBackColor = false;
+            this.savebutton.Click += new System.EventHandler(this.savebutton_Click);
             // 
             // label6
             // 
@@ -229,10 +230,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox enametextbox;
+        private System.Windows.Forms.DateTimePicker datepiker;
+        private System.Windows.Forms.ComboBox comboBox;
+        private System.Windows.Forms.TextBox edtextbox;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Button savebutton;

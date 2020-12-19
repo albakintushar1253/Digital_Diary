@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Digital_Diary.Bussiness_Logic_layer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -53,6 +54,12 @@ namespace Digital_Diary.Presentation_Layer
                 MessageBox.Show("An Error Occured", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
+        }
+
+        private void savebutton_Click(object sender, EventArgs e)
+        {
+            CreateEventService CES = new CreateEventService();
+           int result= CES.AddNewCreateEvent(enametextbox.Text, datepiker.DateTime, comboBox.Text, edtextbox.Text);
         }
     }
 }

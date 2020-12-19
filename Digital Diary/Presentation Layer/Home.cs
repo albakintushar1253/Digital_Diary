@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Digital_Diary.Bussiness_Logic_layer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -27,6 +28,20 @@ namespace Digital_Diary.Presentation_Layer
             CreateEvent ce = new CreateEvent();
             ce.Show();
             this.Hide();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void Home_Load(object sender, EventArgs e)
+        {
+            CreateEventService CES = new CreateEventService();
+            loadCreateEventDataGridView.DataSource = CES.GetCreateEventsList();
+
+
+
         }
     }
 }

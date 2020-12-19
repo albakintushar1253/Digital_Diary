@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,6 +47,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Bussiness Logic layer\CreateEventService.cs" />
+    <Compile Include="Data Entry Layer\CreateEventDataAccess.cs" />
+    <Compile Include="Data Entry Layer\DataAccess.cs" />
+    <Compile Include="Entities\CreateEvent.cs" />
     <Compile Include="Presentation Layer\CreateEvent.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,9 +93,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Bussiness Logic layer\" />
-    <Folder Include="Data Entry Layer\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

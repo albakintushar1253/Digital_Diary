@@ -32,9 +32,9 @@
             this.deletebutton = new System.Windows.Forms.Button();
             this.modifybutton = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.loadCreateEventDataGridView = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.loadCreateEventDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // createeventbutton
@@ -85,20 +85,21 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "My Diary";
             // 
-            // dataGridView1
+            // loadCreateEventDataGridView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 178);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(843, 324);
-            this.dataGridView1.TabIndex = 4;
+            this.loadCreateEventDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.loadCreateEventDataGridView.Location = new System.Drawing.Point(164, 178);
+            this.loadCreateEventDataGridView.Name = "loadCreateEventDataGridView";
+            this.loadCreateEventDataGridView.Size = new System.Drawing.Size(544, 336);
+            this.loadCreateEventDataGridView.TabIndex = 4;
+            this.loadCreateEventDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Geometos", 9.749999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label2.Location = new System.Drawing.Point(12, 154);
+            this.label2.Location = new System.Drawing.Point(161, 160);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(86, 15);
             this.label2.TabIndex = 5;
@@ -111,7 +112,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.ClientSize = new System.Drawing.Size(867, 514);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.loadCreateEventDataGridView);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.modifybutton);
             this.Controls.Add(this.deletebutton);
@@ -120,7 +121,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Home";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Home_FormClosing);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Home_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.loadCreateEventDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -132,7 +134,7 @@
         private System.Windows.Forms.Button deletebutton;
         private System.Windows.Forms.Button modifybutton;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView loadCreateEventDataGridView;
         private System.Windows.Forms.Label label2;
     }
 }
